@@ -1,0 +1,11 @@
+<script>
+var requestOptions = {
+  method: 'GET',
+  redirect: 'follow'
+};
+
+fetch("https://conectame.ddns.net/rest/api.php?m=rfc&user=prueba&pass=sC%7D9pW1Q%5Dc&val=GME050203KW9", requestOptions)
+  .then(response => response.text())
+  .then(result => console.log(result))
+  .catch(error => console.log('error', error));
+</script>
