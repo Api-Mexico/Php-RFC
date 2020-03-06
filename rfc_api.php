@@ -2,7 +2,7 @@
 //ese usuario es de prueba (50 peticiones gratuitas). o puedes crear un usuario: https://conectame.ddns.net/consola/login.php
 $usuario = 'prueba';
 $contrasenia = 'sC%7D9pW1Q%5Dc';
-$valor = 'GME050203KW9'; //reemplazar por el curp a consultar
+$valor = 'GME050203KW9'; //reemplazar por el rfc a consultar
 $metodo = 'rfc';
 $url = 'https://conectame.ddns.net/rest/api.php?m='.$metodo.'&user='.$usuario.'&pass='.$contrasenia.'&val='.$valor;
 $curl = curl_init($url);
